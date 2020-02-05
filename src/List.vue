@@ -13,7 +13,11 @@
     export default {
         name: 'List',
 
-        mixins: [fruitMixin]
+        mixins: [fruitMixin],
+        
+        created() {
+            console.log('list component created');
+        }
     }
 </script>
 
